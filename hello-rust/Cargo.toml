@@ -1,0 +1,8 @@
+[package]
+name = "hello-rust"
+version = "0.1.0"
+authors = ["mitchblevins"]
+
+[dependencies]
+rocket = "0.3.14"
+rocket_codegen = "0.3.14"
