@@ -1,0 +1,20 @@
+
+hello-rust:
+real    1m28.565s
+user    0m16.704s
+sys     0m11.616s
+
+hello-javaspark:
+real    2m16.349s
+user    0m18.470s
+sys     0m13.814s
+
+hello-wildfly:
+real    2m24.354s
+user    0m17.720s
+sys     0m12.231s
+
+hello-payara:
+real    2m42.485s
+user    0m17.036s
+sys     0m12.224s

@@ -1,0 +1,5 @@
+mitchblevins@penguin:~/okcjug-2018-07$ sudo docker images |grep hello
+hello-payara        latest              cec65f4c00db        12 minutes ago      173MB
+hello-wildfly       latest              aa7598852417        2 days ago          151MB
+hello-javaspark     latest              e6fe5f8b9a0b        2 days ago          104MB
+hello-rust          latest              98291d2fe892        2 days ago          2.07MB

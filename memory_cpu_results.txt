@@ -1,0 +1,20 @@
+At Rest (no pun intended):
+
+CONTAINER ID        NAME                CPU %               MEM USAGE / LIMIT     MEM %               NET I/O             BLOCK I/O           PIDS
+e170bef57f3e        hello-rust          0.00%               1.637MiB / 4.841GiB   0.03%               2.79kB / 489B       440MB / 0B          10
+c103608006fc        hello-javaspark     0.37%               33.84MiB / 4.841GiB   0.68%               7.2kB / 3.33kB      908MB / 0B          26
+2167adbfce92        hello-wildfly       0.45%               401.2MiB / 4.841GiB   8.09%               113kB / 85.5kB      4.11GB / 0B         43
+c936cf81b81e        hello-payara        12.41%              630.1MiB / 4.841GiB   12.71%              270kB / 234kB       20.4GB / 0B         82
+
+
+Under Stress:
+
+CONTAINER ID        NAME                CPU %               MEM USAGE / LIMIT     MEM %               NET I/O             BLOCK I/O           PIDS
+e170bef57f3e        hello-rust          20.32%              1.723MiB / 4.841GiB   0.03%               7.15MB / 10.6MB     440MB / 0B          10
+c103608006fc        hello-javaspark     27.66%              73.93MiB / 4.841GiB   1.49%               3.64MB / 5.48MB     946MB / 0B          29
+2167adbfce92        hello-wildfly       39.83%              521.9MiB / 4.841GiB   10.53%              1.66MB / 2.5MB      4.11GB / 0B         106
+c936cf81b81e        hello-payara        146.96%             647.6MiB / 4.841GiB   13.06%              1.28MB / 1.73MB     20.4GB / 0B         82
+
+
+
+
